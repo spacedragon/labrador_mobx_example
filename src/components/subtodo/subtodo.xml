@@ -1,0 +1,4 @@
+<view class="list-item flex-row items-center todo {{state.className}}">
+  <view class="block flex todo-title {{state.className}}-title"> nested{{props.idx}} </view>
+
+</view>
