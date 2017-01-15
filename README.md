@@ -16,7 +16,7 @@ Labrador 开发框架使微信开发回到我们熟悉的开发环境和流程�
 ## So ...
 熟悉mobx 的看 hocs/observer.js  里面的注释
 
-## Know Issues
+## Known Issues
 1. Labrador 可能存在 [issue](https://github.com/maichong/labrador/issues/35)  所以目前package.json 里面使用的是我 fork 之后修改过的版本
 
 2. 微信小程序的 Page.setData(data)  对data 做了一次拷贝, 但是拷贝出来的对象丢失了 getter 方法, 这使得在 xml/wxml 界面绑定的时候取不到 mobx computed value ,  目前的解决方法是为 store 写一个 toJS 序列化方法, 将 computed value 转化为普通的 property .  (同样需要修改 labrador 框架)
