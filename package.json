@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/labrador build",
+    "build": "./node_modules/.bin/labrador build -m",
     "flow": "flow",
     "eslint": "eslint ./",
     "dev" : "./node_modules/.bin/labrador watch"

@@ -6,7 +6,8 @@
     "lodash.isplainobject": "lodash/isPlainObject",
     "lodash.isstring": "lodash/isString",
     "lodash.issymbol": "lodash/isSymbol",
-    "lodash-es": "lodash"
+    "lodash-es": "lodash",
+    "mobx": "mobx/lib/mobx.min"
   },
   "uglify": {
     "mangle": [],
