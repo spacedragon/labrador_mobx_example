@@ -1,4 +1,4 @@
-import { Component } from 'labrador-immutable';
+import { Component } from 'labrador';
 
 class Index extends Component {
 }
